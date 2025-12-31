@@ -1,2 +1,2 @@
-# EarthSimulation.github.io
+# EarthSimulation
 Simple Earth simulation using Three.js
