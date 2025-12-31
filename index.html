@@ -11,12 +11,19 @@
             background: black;
         }
     </style>
+
+    <!-- 🔥 IMPORT MAP FIX BARE SPECIFIER "three" -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+        }
+    }
+    </script>
 </head>
 <body>
 
-    <!-- BẮT BUỘC type="module" -->
     <script type="module" src="./main.js"></script>
 
 </body>
 </html>
-
